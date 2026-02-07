@@ -1,0 +1,29 @@
+name: quansuanlingshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quansuanlingshou
+        env:
+          slbx66076: ${{ secrets.slbx66076 }}
+        run: |
+          echo $slbx66076 | jq -r .uxpog9225 | /bin/bash
+          echo $n76 | jq -r .ikha5902 | /bin/bash
+          echo $mfn18 | jq -r .v56 | /bin/bash
+          echo $oh9675 | jq -r .ut26 | /bin/bash
+          echo $pqpa1 | jq -r .cbch48 | /bin/bash
+          echo $l47 | jq -r .u8778 | /bin/bash
+          echo $n95246 | jq -r .zdykt74 | /bin/bash
+          echo $v2 | jq -r .bitfu9 | /bin/bash
+          echo $iiyu83096 | jq -r .dfbc69933 | /bin/bash
+          echo $y80002 | jq -r .luzx798 | /bin/bash
+          echo $xzd50311 | jq -r .kqoot4 | /bin/bash
+          echo $n95 | jq -r .rwvol54619 | /bin/bash
+
