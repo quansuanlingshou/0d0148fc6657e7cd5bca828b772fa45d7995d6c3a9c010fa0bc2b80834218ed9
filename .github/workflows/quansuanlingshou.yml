@@ -2,25 +2,22 @@ name: quansuanlingshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-
+    - cron: '50 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: quansuanlingshou
         env:
-          hzvzv61744: ${{ secrets.hzvzv61744 }}
+          rb48203: ${{ secrets.rb48203 }}
         run: |
-          echo $hzvzv61744 | jq -r .gwvnj61 | /bin/bash
-          echo $r980 | jq -r .f58 | /bin/bash
-          echo $soun75 | jq -r .nl3355 | /bin/bash
-          echo $qbnw1 | jq -r .svoy63 | /bin/bash
-          echo $usw64 | jq -r .u764 | /bin/bash
-          echo $s3638 | jq -r .w1 | /bin/bash
-          echo $mbpqv30 | jq -r .mmriy8 | /bin/bash
-          echo $bv61580 | jq -r .old695 | /bin/bash
-          echo $rlklc7780 | jq -r .puem177 | /bin/bash
-          echo $ijj50 | jq -r .intid0 | /bin/bash
+          echo $rb48203 | jq -r .nfies775 | /bin/bash
+          echo $xmp8019 | jq -r .or8 | /bin/bash
+          echo $oqkzu858 | jq -r .ihpx6 | /bin/bash
+          echo $elqf61114 | jq -r .jan37 | /bin/bash
+          echo $sc9404 | jq -r .s8 | /bin/bash
+          echo $wohu3183 | jq -r .sdb718 | /bin/bash
+          echo $u05324 | jq -r .h0 | /bin/bash
 
